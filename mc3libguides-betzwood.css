@@ -1,0 +1,218 @@
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Basic
+ * 2.0 - Header and College Links Navigation Bar
+ * 2.5 - Tab Menus
+ * 4.0 - Individual Guide CSS
+ * 3.0 - Front Page CSS
+ * 8.5 - Footer adjustments
+ * 9.0 - @media adjustments
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 1.0 Basic & Headers
+ * ----------------------------------------------------------------------------
+ */
+
+body {background-color: #fff; width: 100%; margin: 0; padding: 0;}
+
+
+body.s-lg-guide-body {
+background-image:url('https://libapps.s3.amazonaws.com/accounts/51701/images/scratched-film-strip-background-lg.png');
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+h1, h2, h3, h4, h5, h6 {font-family: 'Gentium Book Basic', serif;font-weight:700;}
+
+div.s-lg-col-boxes h2.s-lib-box-title { background:none;border-bottom:none;
+font: 700 3.25em/1em 'Gentium Book Basic', serif; padding: 0.35em 0em 0.15em 0.25em; }
+
+div.container {max-width:960px !important;}
+
+div.s-lib-box {border:1px solid #920029; background:white;padding:5px 10px;}
+
+header.betzwood-guide div.container {max-width:100% !important;}
+#page-wrapper {margin: 0 auto 0 auto; background-color: #ffffff; padding: 0px 0.5em 0 0.5em;}
+#guide-wrapper { margin: 0px auto 0 auto; background-color: #ffffff; padding: 0px 0.5em 0 0.5em;}
+#guide-wrapper div.container:first-child {margin-top: 1.0em;}
+
+h1#s-lib-public-header-title,
+h1#s-lg-guide-name {display: block; margin: 0.60em 0 0.5em -0.1em; font-size: 3.25em; padding: 0px 10px;}
+
+h1#s-lib-public-header-title.section-page-header,
+h1#s-lib-public-header-title.help-section-page-header
+{display: block; margin: 0px 0 0.25em 0em; padding: 0.35em 0em 0em 0.0em; font: 400 6.5em Arial, sans-serif; color: #920029;}
+
+
+ul#s-lg-page-prevnext.pager li.next a, ul#s-lg-page-prevnext.pager li.previous a
+{background:#920029; color:#fff;}
+ul#s-lg-page-prevnext.pager li.next a:hover, ul#s-lg-page-prevnext.pager li.previous a:hover
+{background:#fff; color:#920029;border:1px solid #920029;}
+
+a {font-weight:bold;}
+
+
+/**
+ * 2.0 Header and College Links Navigation Bar
+ * ----------------------------------------------------------------------------
+ */
+
+header.betzwood-guide {}
+
+nav#mc3nav {
+    position: relative; float: left; background:#920029;width:100%;margin:-3px 0 0 0px;padding:0 0 3px 0;}
+nav#mc3nav ul {
+    margin: 1.2em 0 39px 0;}
+nav#mc3nav ul li {
+    font: normal 1em/1em Arial, sans-serif;
+    position: relative; float: left; list-style-type: none;
+    margin: 0.3em 0 0 0; padding: 0 1.75em 0 1.75em;
+    border-right: 1px solid #fff;
+}
+nav#mc3nav ul li:first-child {
+   margin-left:-35px;}
+nav#mc3nav ul li:last-child {
+    border-right: none;}
+nav#mc3nav ul li a {
+    color: #fff; background:transparent;
+    text-decoration: none; text-transform: uppercase;}
+nav#mc3nav ul li a:hover {
+    text-decoration: underline;}
+div#betzwood-header > img.betzwood-header-graphic {width:100%;}
+h1#s-lg-guide-name {display:none;}
+
+
+/**
+ * 2.5 Tab menus
+ * ----------------------------------------------------------------------------*/
+
+div#s-lg-guide-tabs.tabs > ul.nav.nav-tabs {float:left;position:relative;margin:-80px 0 20px -10px;padding:0px 0 0 0;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li a {background:#920029; color:#fff; margin:0; padding:5px 15px 5px 15px;border:1px solid #fff;border-radius:5px;}
+div#s-lg-guide-tabs.tabs > ul.nav > li a:hover {background:#fff; color:#920029;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a {background:#fff; color:#920029;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a:hover {background:#fff; color:#920029;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li {padding:0; margin-right:15px;}
+
+div#s-lg-guide-header-search {float:right; position:relative; margin:-290px -60px 0 0px;}
+
+/**
+ * 4.0 Individual Guide CSS
+ * ----------------------------------------------------------------------------*/
+
+#s-lib-bc-site {
+  display: none;}
+#s-lib-bc {
+  margin:0.5em 0 0em 0;}
+#s-lg-guide-search-box {
+  position:relative; float:right;
+  margin:0.75em 0em 0.5em 0;}
+#help-wrapper,
+#research-wrapper,
+#guide-wrapper,
+#page-wrapper {
+    max-width: 960px;
+    margin: 5px auto 20px auto;
+    padding: 0 0 20px 0;
+    border-radius: 5px;}
+#research-wrapper {
+    border: 1px solid #D18A12;}
+#help-wrapper {
+    border: 1px solid #007d7d;}
+#guide-wrapper {
+    border: 1px solid #920029;}
+
+#help-wrapper div.container,
+#research-wrapper div.container,
+#guide-wrapper div.container,
+#page-wrapper div.container {
+    max-width: 960px;
+}
+a {
+    color: #920029;
+}
+
+
+
+ul.s-lg-link-list li {border:1px solid #ccc;padding:15px 25px;list-style:none;margin:15px 0px;background:#fff;width:95%;border-radius:5px;}
+ul.s-lg-link-list > li a {font: bold 14px sans-serif;}
+
+#guide-wrapper div.s-lib-box {border:0.1em solid #920029;}
+#help-wrapper div.s-lib-box {border:0.1em solid #007d7d;}
+
+
+
+/**
+ * 5.0 Front Page CSS & Section Headers
+ * ----------------------------------------------------------------------------*/
+
+
+div#s-lg-box-12670917 {background:transparent !important;}
+
+
+
+/**
+ * 8.5 Footer adjustments
+ * ----------------------------------------------------------------------------
+ */
+
+.s-lib-footer {margin:1em 0 0 0; padding-bottom: 0px; border-top: none; background-color: #fff;}
+#s-lib-footer-login-link {float:right;position:relative;margin:0;padding:0;}
+#s-lib-footer-brand, #s-lib-footer-privacy, #s-lib-footer-rights, #s-lib-footer-support-link {
+ display: none;}
+
+section#footer {padding: 0em 0 0 0; color:#fff; background: rgb(144,0,39) !important;
+background: -moz-linear-gradient(top, rgba(144,0,39,1) 0%, rgba(143,2,34,1) 44%, rgba(104,2,22,1) 100%) !important;
+/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(144,0,39,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(104,2,22,1))) !important; */
+/* background: -webkit-linear-gradient(top, rgba(144,0,39,1) 0%,rgba(143,2,34,1) 44%,rgba(104,2,22,1) 100%) !important; */
+background: -o-linear-gradient(top, rgba(144,0,39,1) 0%,rgba(143,2,34,1) 44%,rgba(104,2,22,1) 100%) !important;
+background: -ms-linear-gradient(top, rgba(144,0,39,1) 0%,rgba(143,2,34,1) 44%,rgba(104,2,22,1) 100%) !important;
+/* background: linear-gradient(to bottom, rgba(144,0,39,1) 0%,rgba(143,2,34,1) 44%,rgba(104,2,22,1) 100%) !important; */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#900027', endColorstr='#680216',GradientType=0 ) !important;
+}
+section#footer div.social-icons img {padding: 0em 0.5em 0 0;}
+section#footer div#footer-links {max-width:960px;}
+section#footer a {color: #fff;}
+section#footer ul {margin-top:2em; border-left:1px solid #fff;}
+section#footer li {margin-left:0.15em;}
+section#footer div#college-address {background-color:#444;padding: 2em 0em;margin:0.25em 0 0 0;}
+section#footer div#college-address p {color:#fff;text-align:center;}
+
+
+/**
+ * 9.0 @media adjustments
+ * ----------------------------------------------------------------------------
+ */
+
+@media screen and (max-width: 768px) {
+   div#s-lg-guide-tabs.tabs > ul.nav.nav-tabs {
+   	margin:0px 0 20px 40px;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li a {background:#920029; color:#fff; margin:0; padding:5px 15px 5px 15px;border-radius:5px;}
+div#s-lg-guide-tabs.tabs > ul.nav > li a:hover {background:#fff; color:#920029;border:1px solid #920029; border-radius:5px;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a {background:#fff; color:#920029; border:1px solid #920029;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a:hover {background:#920029; color:#fff;border-radius:5px;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li {padding:0; margin-right:5px;}
+
+div#s-lg-guide-header-search {float:right; position:relative; margin:-190px 30px 0 0px;}
+
+}
+
+@media screen and (max-width: 768px) {
+   div#s-lg-guide-tabs.tabs > ul.nav.nav-tabs {
+   	margin:0px 0 20px 40px;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li a {background:#920029; color:#fff; margin:0; padding:5px 15px 5px 15px;border-radius:5px;}
+div#s-lg-guide-tabs.tabs > ul.nav > li a:hover {background:#fff; color:#920029;border:1px solid #920029; border-radius:5px;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a {background:#fff; color:#920029; border:1px solid #920029;}
+div#s-lg-guide-tabs.tabs > ul.nav > li.active a:hover {background:#920029; color:#fff;border-radius:5px;}
+
+div#s-lg-guide-tabs.tabs > ul.nav > li {padding:0; margin-right:5px;}
+
+div#s-lg-guide-header-search {float:right; position:relative; margin:-190px 30px 0 0px;}
+
+}
